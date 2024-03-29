@@ -25,8 +25,8 @@ const loop = setInterval(() => {
         clouds.style.animation = 'none'; 
         clouds.style.right = `${cloudsPosition}px`;
 
-        pikachu.src = './images/gameover.png';
-        pikachu.style.height = '100px';
+        pikachu.src = '../images/gameover.png';
+        pikachu.style.height = '100px'; 
         pikachu.style.marginLeft = '15px' 
         pikachu.style.marginTop = '130px';  
 
